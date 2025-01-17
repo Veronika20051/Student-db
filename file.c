@@ -44,7 +44,7 @@ struct student *data_read( const char *file, int *count ){
 
 	fd = open( file, O_RDWR, 0600 );
 	if ( fd < 0 ) {
-		printf("Error opening file; %d (%m)\n", fd);
+		printf("Error opening file: %d (%m)\n", fd);
 		return data;
 	}
 
