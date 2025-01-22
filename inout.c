@@ -13,7 +13,7 @@ void data_input(int count, struct student *s) {
 
 	for( int i =  0; i < count; i++ ) {
 		printf("Please enter data for student %d:\n", i + 1);
-		scanf("%s %s %d %d", (s + 1)->name, (s + i)->lastname,
+		scanf("%s %s %d %d", (s + i)->name, (s + i)->lastname,
 			&(s + i)->group_id, &(s + i)->course );
 	}
 
