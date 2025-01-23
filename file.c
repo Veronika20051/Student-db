@@ -46,7 +46,7 @@ struct student *data_read( const char *file, int *count ){
 	if ( fd < 0 ) {
 		printf("Error opening file: %d (%m)\n", fd);
 		return data;
-	}
+	} 
 
 	data = (struct student *)malloc( sizeof(struct student) );
 	if ( !data )
