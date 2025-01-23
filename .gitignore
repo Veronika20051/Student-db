@@ -1,6 +1,6 @@
-#*.o
-#student_db
-#data.bin
+*.o
+student_db
+data.bin
 .built*
 .configured*
 .pkgdir/
