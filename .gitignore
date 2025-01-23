@@ -1,6 +1,3 @@
-*.o
-student-db-project
-data.bin
 .built*
 .configured*
 .pkgdir/
